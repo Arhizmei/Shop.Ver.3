@@ -32,12 +32,21 @@
      <TextView
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
+<<<<<<< HEAD
 
          android:layout_centerInParent="true"
          android:rotation="-20"
          android:text="Sale - 30%"
          android:textColor="@android:color/black"
          android:textSize="60sp" />
+=======
+         android:layout_centerInParent="true"
+         android:fontFamily="@font/aclonica"
+         android:text="Sale - 30%"
+         android:textSize="40sp"
+         android:rotation="-20"
+         android:textColor="@android:color/black" />
+>>>>>>> 8adb26b (Initial commit)
  </RelativeLayout>
 
 <TextView
@@ -140,12 +149,16 @@
             android:textColor="@color/black"
             android:layout_below="@+id/quantityTitle"
             android:layout_marginStart="30dp"
+<<<<<<< HEAD
             android:layout_toRightOf="@+id/quantitY"
             android:onClick="increaseQuantity">
 
 
 
         </Button>
+=======
+            android:layout_toRightOf="@+id/quantitY"></Button>
+>>>>>>> 8adb26b (Initial commit)
 
     </RelativeLayout>
 
@@ -154,12 +167,16 @@
         android:layout_height="wrap_content"
         android:text="Add to cart"
         android:layout_marginTop="60sp"
+<<<<<<< HEAD
         android:textColor="@color/black"
         >
 
 
 
     </Button>
+=======
+        android:textColor="@color/black"></Button>
+>>>>>>> 8adb26b (Initial commit)
 
 
 </LinearLayout>
